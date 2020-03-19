@@ -1,0 +1,22 @@
+.impulso{
+    text-align: center;
+    margin: 30px;
+}
+
+.impulso h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.impulso p{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.impulso span{
+    font-weight: bold;
+}
+
+.impulso li{
+    list-style: none;
+}

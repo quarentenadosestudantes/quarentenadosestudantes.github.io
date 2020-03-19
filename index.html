@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#000000" />
+      <title>Quarentena dos Estudantes: </title>
+      <meta
+      name="description"
+      content="Site destinado aos estudos durante a quarentena do Corona Vírus."
+      />
+      <link rel="stylesheet" href="./index.css">
+      <link rel="icon" href="./src/imgs/favicon.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+    </head>
+    
+
+    <body>
+     <!-- NAVBAR -->
+     <header>
+      <a href="./index.html">
+        <img src="./src/imgs/QUARENTENA DOS ESTUDANTES.png" alt="Quarentena dos Estudantes" class="logo">
+      </a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#">Videoaula</a>
+        </li>
+        <li>
+          <a href="#">Exercícios</a>
+        </li>
+        <li>
+          <a href="#">Adicionais</a>
+        </li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>  
+
+    <!-- CONTENT -->
+    <section class="goToImpulso">
+      <h1>Quarentena não é férias!</h1>
+      <p>Um site criado para melhor organização e distribuição dos conteúdos escolares.</p>
+      <p>Somente para alunos do Colégio Impulso.</p>
+
+      <h2>Insira o código para ter acesso:</h2>
+      <form action="" id="goImpulso">
+        <input type="text" name="codigo" id="codigo" required placeholder="Código na descrição do grupo">
+
+        <input type="submit" value="Acessar" class="submit-button" onclick="openCorujao()">
+      </form>
+     
+    </section>
+      
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-txt">
+          <p>Feito com ❤️ por Estudantes. &copy;2020</p>
+        </div>
+      </footer>
+
+      <script src="./animation.js"></script>
+      <script src="./goToImpulso.js"></script>
+    </body>
+  </html>
